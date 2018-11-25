@@ -15,6 +15,7 @@ import java.lang.Thread.sleep
 class MainActivity : AppCompatActivity() {
     var context: MainActivity? = null
     override fun onCreate(savedInstanceState: Bundle?) {
+        //这是第二个分支
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         context = this
