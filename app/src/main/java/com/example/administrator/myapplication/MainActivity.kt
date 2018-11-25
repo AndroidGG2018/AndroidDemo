@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         context = this
         // Example of a call to a native method
-        sample_text.text = stringFromJNI()
+        sample_text.text = "2222222222222"
         sample_text.setOnClickListener {
             startActivity(Intent(
                     context,
